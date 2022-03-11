@@ -1,0 +1,80 @@
+html,body{
+height: 100%;
+background: linear-gradient(116.47deg, #6710C2 0%, rgba(200, 29, 119, 0.86) 101.04%);
+font-family: 'Poppins', sans-serif;
+font-size: 14px;
+}
+
+.global-container{
+    height: 100%;
+    display : flex;
+    align-items: center;
+    justify-content: center;
+    color: #ffff;
+
+}
+img{
+    
+   
+width: 58px;
+height: 57px;
+filter: drop-shadow(0px 5px 10px rgba(0, 0, 0, 0.5));
+}
+h2{
+padding: 27px;
+height: 54px;
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 700;
+line-height: 54px;
+}
+
+h5{
+
+height: 54px;
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 700;
+line-height: 54px;
+}
+.card-text{
+    padding-top: 5px;
+}
+
+.login-form{
+    width: 305px;
+    height: 500px;
+    padding: 20px;
+    background: rgba(70, 0, 120, 0.5);
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.5);
+    border-radius: 20px;
+    
+}
+
+input[type="email"],
+input[type="password"]{
+    background: rgba(70, 0, 120, 0.5);
+    color: #ffff;
+    border: 2px ;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+input[type="email"]:focus,
+input[type="password"]:focus{
+   outline: none;
+   border : none;
+   background: rgba(2, 0, 120, 0.5);
+   color: #ffff;
+   margin:0;
+}
+
+.btn{
+    background : #212058 !important;
+    border-color: #212058;
+    border-radius: 25px !important;
+    font-size: 14px;
+    transform: translateY(5px);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    padding: 10px 40px;
+}
